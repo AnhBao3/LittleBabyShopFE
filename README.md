@@ -14,11 +14,17 @@ Dự án mini siêu thị được xây dựng bằng **React.js** với giao di
 ## 📁 Cấu trúc thư mục
 
 src/
+
 ├── components/ # Các thành phần giao diện
+
 ├── pages/ # Các trang chính như Home, Login, ProductDetail
+
 ├── services/ # Gọi API
+
 ├── assets/ # Hình ảnh, CSS
+
 └── App.js # File gốc
+
 
 ## ⚙️ Cài đặt & chạy dự án
 
@@ -26,14 +32,19 @@ src/
 npm install
 
 # 2. Chạy server phát triển
+
 npm start
+
 Ứng dụng sẽ chạy tại: http://localhost:3000
 
 🧪 Test
+
 npm test
 
 🛠️ Build để triển khai
+
 npm run build
+
 Thư mục build/ sẽ chứa toàn bộ mã nguồn tối ưu hóa sẵn sàng để deploy.
 
 🔗 Công nghệ sử dụng
