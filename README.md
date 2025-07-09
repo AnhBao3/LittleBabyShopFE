@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# 🛍️ Little Baby Shop - Mini Siêu Thị
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dự án mini siêu thị được xây dựng bằng **React.js** với giao diện thân thiện, dễ sử dụng. Phù hợp để quản lý sản phẩm, đơn hàng và trải nghiệm người dùng cho cửa hàng nhỏ.
 
-## Available Scripts
+## 🚀 Tính năng chính
 
-In the project directory, you can run:
+- 🎨 Giao diện người dùng thân thiện, responsive
+- 🛒 Danh sách sản phẩm động
+- 📦 Chi tiết sản phẩm và giỏ hàng
+- 🔍 Tìm kiếm, phân loại sản phẩm
+- 🔐 Đăng nhập/Đăng ký người dùng
+- 🌐 Kết nối với API backend
 
-### `npm start`
+## 📁 Cấu trúc thư mục
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+src/
+├── components/ # Các thành phần giao diện
+├── pages/ # Các trang chính như Home, Login, ProductDetail
+├── services/ # Gọi API
+├── assets/ # Hình ảnh, CSS
+└── App.js # File gốc
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ Cài đặt & chạy dự án
 
-### `npm test`
+# 1. Cài đặt dependencies
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 2. Chạy server phát triển
+npm start
+Ứng dụng sẽ chạy tại: http://localhost:3000
 
-### `npm run build`
+🧪 Test
+npm test
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🛠️ Build để triển khai
+npm run build
+Thư mục build/ sẽ chứa toàn bộ mã nguồn tối ưu hóa sẵn sàng để deploy.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🔗 Công nghệ sử dụng
+React.js (Create React App)
+React Router
+Axios
+FontAwesome
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+💡 Ghi chú
+Đây là frontend, kết nối với backend Node.js qua API (/api/...)
+Cấu hình proxy trong setupProxy.js nếu cần redirect đến backend
